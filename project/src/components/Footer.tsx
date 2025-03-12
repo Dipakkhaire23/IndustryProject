@@ -1,5 +1,5 @@
 import React from 'react';
-import { Facebook, Instagram, Twitter, Truck, FactoryIcon } from 'lucide-react';
+import { Facebook, Instagram, Twitter, Truck,  } from 'lucide-react';
 
 export default function Footer() {
   return (

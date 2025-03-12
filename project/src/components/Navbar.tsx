@@ -14,11 +14,11 @@ export default function Navbar() {
           </div>
           
           <div className="items-center hidden space-x-8 md:flex">
-            <a href="#home" className="text-gray-600 hover:text-blue-600">Home</a>
-            <a href="#services" className="text-gray-600 hover:text-blue-600">Services</a>
-            <a href="#pricing" className="text-gray-600 hover:text-blue-600">Pricing</a>
-            <a href="#testimonials" className="text-gray-600 hover:text-blue-600">Testimonials</a>
-            <a href="#contact" className="px-4 py-2 text-white bg-blue-600 rounded-md hover:bg-blue-700">
+            <a href="/" className="text-gray-600 hover:text-blue-600">Home</a>
+            <a href="/services" className="text-gray-600 hover:text-blue-600">Services</a>
+            <a href="/pricing" className="text-gray-600 hover:text-blue-600">Pricing</a>
+            <a href="/testimonials" className="text-gray-600 hover:text-blue-600">Testimonials</a>
+            <a href="/contact" className="px-4 py-2 text-white bg-blue-600 rounded-md hover:bg-blue-700">
               Get Quote
             </a>
           </div>
@@ -34,11 +34,11 @@ export default function Navbar() {
       {isOpen && (
         <div className="md:hidden">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3">
-            <a href="#home" className="block px-3 py-2 text-gray-600 hover:text-blue-600">Home</a>
-            <a href="#services" className="block px-3 py-2 text-gray-600 hover:text-blue-600">Services</a>
-            <a href="#pricing" className="block px-3 py-2 text-gray-600 hover:text-blue-600">Pricing</a>
-            <a href="#testimonials" className="block px-3 py-2 text-gray-600 hover:text-blue-600">Testimonials</a>
-            <a href="#contact" className="block px-3 py-2 text-white bg-blue-600 rounded-md">Get Quote</a>
+            <a href="/" className="block px-3 py-2 text-gray-600 hover:text-blue-600">Home</a>
+            <a href="/services" className="block px-3 py-2 text-gray-600 hover:text-blue-600">Services</a>
+            <a href="/pricing" className="block px-3 py-2 text-gray-600 hover:text-blue-600">Pricing</a>
+            <a href="/testimonials" className="block px-3 py-2 text-gray-600 hover:text-blue-600">Testimonials</a>
+            <a href="/contact" className="block px-3 py-2 text-white bg-blue-600 rounded-md">Get Quote</a>
           </div>
         </div>
       )}
